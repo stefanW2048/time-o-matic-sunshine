@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time-O-Matic Sunshine ☀️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Time-O-Matic Sunshine ☀️</h1>
+    <div class="container">
+        <!-- Start Time Column -->
+        <div class="column">
+            <h2>Start Time</h2>
+            <div class="options" id="startTimeOptions">
+                <!-- Start Time Options -->
+                <label><input type="radio" name="startTime" value="7:00"> 7:00</label>
+                <label><input type="radio" name="startTime" value="7:15"> 7:15</label>
+                <label><input type="radio" name="startTime" value="7:30" checked> 7:30</label>
+                <label><input type="radio" name="startTime" value="7:45"> 7:45</label>
+                <label><input type="radio" name="startTime" value="8:00"> 8:00</label>
+            </div>
+        </div>
+       
+        <!-- End Time Column -->
+        <div class="column">
+            <h2>End Time</h2>
+            <div class="options" id="endTimeOptions">
+                <!-- End Time Options -->
+                <label><input type="radio" name="endTime" value="15:30"> 15:30</label>
+                <label><input type="radio" name="endTime" value="15:45"> 15:45</label>
+                <label><input type="radio" name="endTime" value="16:00"> 16:00</label>
+                <label><input type="radio" name="endTime" value="16:15"> 16:15</label>
+                <label><input type="radio" name="endTime" value="16:30"> 16:30</label>
+                <label><input type="radio" name="endTime" value="16:45"> 16:45</label>
+                <label><input type="radio" name="endTime" value="17:00"> 17:00</label>
+                <label><input type="radio" name="endTime" value="17:15"> 17:15</label>
+                <label><input type="radio" name="endTime" value="17:30" checked> 17:30</label>
+                <label><input type="radio" name="endTime" value="17:45"> 17:45</label>
+                <label><input type="radio" name="endTime" value="18:00"> 18:00</label>
+                <label><input type="radio" name="endTime" value="18:15"> 18:15</label>
+                <label><input type="radio" name="endTime" value="18:30"> 18:30</label>
+            </div>
+        </div>
+		
+		 <!-- Break Time Column -->
+        <div class="column">
+            <h2>Break Time</h2>
+            <div class="options" id="breakTimeOptions">
+                <!-- Break Time Options -->
+                <label><input type="radio" name="breakTime" value="0:00"> 0h</label>
+                <label><input type="radio" name="breakTime" value="0:30"> 0.5h</label>
+                <label><input type="radio" name="breakTime" value="1:00"> 1h</label>
+                <label><input type="radio" name="breakTime" value="1:30"> 1.5h</label>
+                <label><input type="radio" name="breakTime" value="2:00" checked> 2h</label>
+                <label><input type="radio" name="breakTime" value="2:30"> 2.5h</label>
+                <label><input type="radio" name="breakTime" value="3:00"> 3h</label>
+            </div>
+        </div>
+		
+    </div>
+    <!-- Display Result -->
+    <div id="result">Worked Time: 8:00h</div>
+    <script src="script.js"></script>
+</body>
+</html>
